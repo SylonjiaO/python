@@ -1,5 +1,6 @@
 # Find the square root of a Number
 import math
+# Math is an automatically installed modules 
 
 myno=int(input("Enter A Number:"))
 result=math.sqrt(myno)
