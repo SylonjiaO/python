@@ -13,6 +13,14 @@ while (answer=="Y" or answer=="y"):
             continue
         else:
             break
+    while True:
+        emailid=input("Enter Official Email ID :").strip().lower()
+        if(emailid.endswith("@coltnet")):
+            break
+        else:
+            print("Sorry It's not Your Official ID...")
+            continue
+        
     print("NAME\t\t\tSALARY")
     print("*****\t\t\t******")
     print("%s\t\t\t$%.2f" %(empname,salary))
